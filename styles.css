@@ -1,0 +1,129 @@
+body {
+    background-color: #e6f3fa;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #17a2b8 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f1f9fc !important;
+}
+
+.nav-link.active {
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #17a2b8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.form-control {
+    border-color: #17a2b8;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+.form-label {
+    color: #17a2b8;
+    font-weight: 500;
+}
+
+.rune-display {
+    font-family: 'Noto Sans Old Turkic', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #f1f9fc;
+    min-height: 50px;
+    direction: rtl;
+    border-radius: 5px;
+}
+
+.rune-card {
+    background-color: #f1f9fc;
+    border: 1px solid #17a2b8;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rune-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.rune {
+    font-family: 'Noto Sans Old Turkic', sans-serif;
+    font-size: 2rem;
+    color: #17a2b8;
+}
+
+.latin {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+h1 {
+    color: #17a2b8;
+    font-weight: 700;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.list-group-item {
+    border-color: #17a2b8;
+    background-color: #f1f9fc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list-group-item strong {
+    color: #17a2b8;
+}
+
+@media (max-width: 576px) {
+    .rune-display {
+        font-size: 1.2rem;
+    }
+    .rune {
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .card {
+        padding: 15px;
+    }
+}
+
+/* Animate.css Integration */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchon Runen Regeln</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Turkic&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Orchon Runen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Konverter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="runes.html">Runen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="rules.html">Regeln</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <div class="container mt-5">
+        <div class="card p-4 shadow-lg animate__animated animate__fadeIn">
+            <h1 class="text-center mb-4">Schreib- und Leseregeln</h1>
+            <p class="text-center text-muted mb-4">Hier sind wichtige Regeln zum Schreiben und Lesen von Orchon Runen</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <strong>1. Harte Vokale werden für harte Silben, leichte Vokale für leichte Silben</strong><br>
+                    <pre><code>
+𐰉𐰀𐰉𐰀 = Baba → harte Silben → (a) wird verwendet
+𐰋𐰀𐰋𐰀 = Bebe → weiche Silben → (e) wird verwendet</code></pre>
+                </li>
+                <li class="list-group-item">
+                    <strong>2. Wenn zwei Konsonanten direkt nebeneinanderstehen, werden sie nicht als eine Silbe, sondern mit ihren Namen gelesen.</strong><br>
+                    <pre><code>
+𐰺𐰲 = araç
+𐰲𐰺 = açar</code></pre>
+                </li>
+                <li class="list-group-item">
+                    <strong>3. Wenn ein Vokal und ein Konsonant nebeneinanderstehen, bilden sie eine Silbe.</strong><br>
+                    <pre><code>
+𐰾𐰇 = sü
+𐰇𐰾 = üs 
+Nicht: esü oder ües</code></pre>
+                </li>
+                <li class="list-group-item">
+                    <strong>4. Die Wörter werden beim Silbentrennen nach harten und weichen Lauten getrennt</strong><br>
+                    <pre><code>
+𐰴𐰀𐰠𐰀 → 𐰴𐰀 + 𐰠𐰀 = Kale
+𐰾𐰀𐰺𐰀 → 𐰾𐰀 + 𐰺𐰀 = Sera
+                                
+Mehrdeutige Wörter:
+𐰖𐰺𐰣 → kann verschieden gelesen werden: Ayran, Yaran, Yarın
+                                
+Zur Klarstellung wird ein zusätzlicher Vokal eingefügt:
+𐰀𐰖𐰺𐰀𐰣 = Ayran
+𐰖𐰀𐰺𐰣 = Yaran
+𐰖𐰀𐰺𐰀𐰣 = Yarın</code></pre>
+                </li>
+                <li class="list-group-item">
+                    <strong>5. Wörter werden nicht nach Silben, sondern nach Wortstämmen und Endungen (Morphemen) getrennt.</strong><br>
+                    <pre><code>
+Yanak (Wange):
+Lateinisch: ya + nak (nach Vokalen)
+Morphemisch: yan (Stamm: Seite) + ak (Suffix)
+
+𐰖𐰀𐰣𐰴 = Yanak
+𐰖𐰀𐰣𐰶 = Yanık
+</code></pre>
+                </li>
+            </ul>            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
